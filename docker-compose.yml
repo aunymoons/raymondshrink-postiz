@@ -5,9 +5,9 @@ services:
     restart: always
     environment:
       # You must change these. Replace `postiz.your-server.com` with your DNS name - this needs to be exactly the URL you're accessing Postiz on.
-      MAIN_URL: "https://postiz.your-server.com"
-      FRONTEND_URL: "https://postiz.your-server.com"
-      NEXT_PUBLIC_BACKEND_URL: "https://postiz.your-server.com/api"
+      MAIN_URL: "https://social.raymondshrink.com"
+      FRONTEND_URL: "https://social.raymondshrink.com"
+      NEXT_PUBLIC_BACKEND_URL: "https://social.raymondshrink.com/api"
       JWT_SECRET: "67uewrwetyy6etrwfkpodeodwdndavfnPDAEWOFRWDEW"
  
       # These defaults are probably fine, but if you change your user/password, update it in the
